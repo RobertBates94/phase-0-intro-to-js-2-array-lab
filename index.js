@@ -22,5 +22,16 @@ function appendCat() {
 }
 
 function prependCat() {
+    const arnold = ["Arnold", ...cats]
+    return arnold
+}
 
+function removeLastCat() {
+    const last = [...cats.slice(0, -1)]
+    return last
+}
+
+function removeFirstCat() {
+    const first = [...cats.slice(1)]
+    return first
 }
