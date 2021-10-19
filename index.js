@@ -18,6 +18,7 @@ function destructivelyRemoveFirstCat() {
 
 function appendCat() {
    const broom = [...cats, "Broom"]
+   return broom
 }
 
 function prependCat() {
